@@ -60,5 +60,3 @@ We welcome contributions from the community! If you want to contribute to this p
 This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to customize this README according to your project's specific details and requirements. Include information about installation
