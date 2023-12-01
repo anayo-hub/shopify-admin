@@ -94,26 +94,34 @@
           </svg>
         </div>
 
-        <div class="itemcontainer" id="user-detail" class="user-detail">
+        <div id="user-detail" class="user-detail itemcontainer">
           <div
-            class="username-details"
+            class="username-details menu-trigger"
+            id="profile-menu"
             role="button"
             aria-haspopup="true"
             aria-expanded="false"
-            aria-controls="dropdown-content"
+            aria-controls="profile-menu-content"
           >
             <span class="username-text">Davii Collection</span>
             <span class="username-abbr" aria-label="Davii Collection">DC</span>
           </div>
           <div
-            class="dropdown-content"
+            id="profile-menu-content"
+            class="dropdown-content menu"
             role="menu"
-            aria-labelledby="username-details"
+            aria-labelledby="profile-menu-content"
           >
             <!-- Dropdown content initially hidden -->
-            <div class="dropdown-item" role="menuitem">Option 1</div>
-            <div class="dropdown-item" role="menuitem">Option 2</div>
-            <div class="dropdown-item" role="menuitem">Option 3</div>
+            <div class="dropdown-item menu-item">
+              <p role="menuitem" tabindex="0">option one</p>
+            </div>
+            <div class="dropdown-item menu-item">
+              <p role="menuitem" tabindex="0">option two</p>
+            </div>
+            <div class="dropdown-item menu-item">
+              <p role="menuitem" tabindex="0">option three</p>
+            </div>
           </div>
         </div>
       </div>
