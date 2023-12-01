@@ -355,8 +355,6 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
-
 /* Styles for the header and its contents */
 .admin-header {
   display: flex;
@@ -495,7 +493,7 @@ body {
 /* Existing styles... */
 
 /* Dropdown styles */
-.user-detail {
+.itemcontainer {
   background: var(--grey-g-200, #303030);
   border-radius: 8px;
   display: flex;
@@ -520,13 +518,33 @@ body {
   border-radius: 8px;
 }
 
-.user-detail.active .dropdown-content {
+.menu-active {
+  display: block;
 }
 
+/* Styling for dropdown items */
 .dropdown-item {
   cursor: pointer;
   padding: 8px 0;
   color: #000;
+}
+
+/* Style when item is hovered */
+.dropdown-item:hover {
+  outline: none;
+  border: 0.125rem solid #005bd3;
+  border-radius: 8px;
+}
+
+/* Style when item is focused */
+.dropdown-item:focus {
+  outline: none;
+  border: 0.125rem solid #005bd3;
+}
+
+/* Style when item is navigated using arrow keys */
+.dropdown-item:focus-visible {
+  background-color: #c0c0c0; /* Change the background color when focused using keyboard navigation */
 }
 
 .user-detail:hover {

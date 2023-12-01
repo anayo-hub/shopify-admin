@@ -94,21 +94,31 @@
           </svg>
         </div>
 
-        <div class="user-detail" role="button" tabindex="0">
-          <div class="username-details">
+        <div class="itemcontainer" id="user-detail" class="user-detail">
+          <div
+            class="username-details"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="dropdown-content"
+          >
             <span class="username-text">Davii Collection</span>
             <span class="username-abbr" aria-label="Davii Collection">DC</span>
           </div>
-          <div class="dropdown-content">
+          <div
+            class="dropdown-content"
+            role="menu"
+            aria-labelledby="username-details"
+          >
             <!-- Dropdown content initially hidden -->
-            <div class="dropdown-item">Option 1</div>
-            <div class="dropdown-item">Option 2</div>
-            <div class="dropdown-item">Option 3</div>
+            <div class="dropdown-item" role="menuitem">Option 1</div>
+            <div class="dropdown-item" role="menuitem">Option 2</div>
+            <div class="dropdown-item" role="menuitem">Option 3</div>
           </div>
         </div>
       </div>
     </header>
 
-    <script src="app.js"></script>
+    <script src="check.js"></script>
   </body>
 </html>
