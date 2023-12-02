@@ -20,7 +20,7 @@ This project is a web application that serves as an administrative dashboard, pr
 
 - Responsive design for multiple device compatibility
 - Semantic HTML structure for improved accessibility
-- Navigation menu with dropdown functionality
+- Navigation menu with dropdowns functionality
 - Search bar with customizable search options
 - User profile details with dropdown options
 
